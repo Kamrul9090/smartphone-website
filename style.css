@@ -1,0 +1,41 @@
+.feedback-img {
+    width: 20px;
+}
+
+.ul-nav {
+    margin-top: 5px;
+}
+
+.feedback-list a {
+    background: linear-gradient(to right, #5121e4, #9b08dd);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.margin-top {
+    margin-top: 100px;
+}
+
+.showcase-header {
+    color: #2937f0;
+}
+
+.article-height,
+.app-store {
+    height: 400px;
+    background: linear-gradient(to right, #5121e4, #9b08dd);
+}
+
+.tbw-logo,
+.logo {
+    width: 100px;
+}
+
+.back-img {
+    height: 550px;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+}
