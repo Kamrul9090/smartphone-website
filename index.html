@@ -13,7 +13,7 @@
 <body>
     <!-- header section start-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-light shadow-lg p-3 mb-5 bg-body rounded">
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg p-3 mb-5 bg-body fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-lg-6 mt-3">
                     <div class="row g-2">
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="p-3 border bg-light text-center">
                                 <img class="img-thumbnail logo" src="img/tab.png" alt="">
                                 <h1>Device Mockups</h1>
@@ -94,7 +94,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-6">
                             <div class="p-3 border bg-light text-center">
                                 <img class="img-thumbnail logo" src="img/tab.png" alt="">
                                 <h1>Device Mockups</h1>
@@ -140,10 +140,14 @@
 
         <!-- apps section start -->
         <section style="height: 250px;" class="app-store d-flex align-items-center justify-content-center">
-            <div>
-                <h1 class="text-light order-1">Get the app now!</h1>
-                <img src="img/app-store.png order-2" alt="">
-                <img src="img/google-play.png order-3" alt="">
+            <div class="d-flex flex-lg-column flex-sm-column-reverse text-center">
+                <div>
+                    <h1 class="text-light">Get the app now!</h1>
+                </div>
+                <div>
+                    <img src="img/app-store.png" alt="">
+                    <img src="img/google-play.png" alt="">
+                </div>
             </div>
         </section>
         <!-- apps section end -->
